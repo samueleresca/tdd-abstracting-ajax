@@ -28,8 +28,8 @@ module.exports = function (grunt) {
                     'node_modules/sinon/pkg/sinon.js',
 
                 // Our test files
-                    'js/class-to-test.js',
-                    'test/tests.js',
+                    'js/*.js',
+                    'test/*.js',
                     'test/index.html'
                 ]
             },
