@@ -28,6 +28,7 @@ module.exports = function (grunt) {
                     'node_modules/sinon/pkg/sinon.js',
 
                 // Our test files
+                    'lib/*.js',
                     'js/*.js',
                     'test/*.js',
                     'test/index.html'
